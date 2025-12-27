@@ -1,1 +1,4 @@
 /Users/kassandramonterroso/Desktop/runplanner/src/main/java/com/kassandra/runplanner/RunplannerApplication.java
+/Users/kassandramonterroso/Desktop/runplanner/src/main/java/com/kassandra/runplanner/controller/DailyAvailabilityController.java
+/Users/kassandramonterroso/Desktop/runplanner/src/main/java/com/kassandra/runplanner/model/DailyAvailability.java
+/Users/kassandramonterroso/Desktop/runplanner/src/main/java/com/kassandra/runplanner/repository/DailyAvailabilityRepository.java
