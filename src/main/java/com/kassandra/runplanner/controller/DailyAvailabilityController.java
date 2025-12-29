@@ -2,24 +2,24 @@ package com.kassandra.runplanner.controller;
 
 import org.springframework.web.bind.annotation.*;
 import com.kassandra.runplanner.model.DailyAvailability;
-import com.kassandra.runplanner.repository.DailyAvailabilityRepository;
+import com.kassandra.runplanner.service.DailyAvailabilityService;
 
 @RestController
 public class DailyAvailabilityController {
-    private final DailyAvailabilityRepository dARepo;
+    private final DailyAvailabilityService service;
 
-    public DailyAvailabilityController(DailyAvailabilityRepository dARepo){
-        this.dARepo = dARepo;
+    public DailyAvailabilityController(DailyAvailabilityService service){
+        this.service = service;
     }
    
-    @GetMapping("/api/health")
-    public String getData(){
-        return "Get request works!!";
+    @GetMapping("/api/availability")
+    public Iterable<DailyAvailability> getAllAvailability(){
+        return service.findAll();
     }
 
     @PostMapping("/api/availability")
     public DailyAvailability createAvailability (@RequestBody DailyAvailability availability){
-        return dARepo.save(availability);
+        return service.save(availability);
     }
 
 
