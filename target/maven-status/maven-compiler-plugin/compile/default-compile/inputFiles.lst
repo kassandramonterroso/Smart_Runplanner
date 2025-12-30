@@ -1,5 +1,8 @@
 /Users/kassandramonterroso/Desktop/runplanner/src/main/java/com/kassandra/runplanner/RunplannerApplication.java
 /Users/kassandramonterroso/Desktop/runplanner/src/main/java/com/kassandra/runplanner/controller/DailyAvailabilityController.java
 /Users/kassandramonterroso/Desktop/runplanner/src/main/java/com/kassandra/runplanner/model/DailyAvailability.java
+/Users/kassandramonterroso/Desktop/runplanner/src/main/java/com/kassandra/runplanner/model/EnergyLevel.java
+/Users/kassandramonterroso/Desktop/runplanner/src/main/java/com/kassandra/runplanner/model/RunSuggestion.java
+/Users/kassandramonterroso/Desktop/runplanner/src/main/java/com/kassandra/runplanner/model/SorenessLevel.java
 /Users/kassandramonterroso/Desktop/runplanner/src/main/java/com/kassandra/runplanner/repository/DailyAvailabilityRepository.java
 /Users/kassandramonterroso/Desktop/runplanner/src/main/java/com/kassandra/runplanner/service/DailyAvailabilityService.java

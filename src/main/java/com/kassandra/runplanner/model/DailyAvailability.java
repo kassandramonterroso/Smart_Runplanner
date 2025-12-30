@@ -18,6 +18,8 @@ public class DailyAvailability {
     private LocalTime endTime;
     private boolean dayOff;
     private int bufferMinutes;
+    private EnergyLevel energyLevel;
+    private SorenessLevel sorenessLevel;
 
     public Long getAvailabilityId(){
         return availabilityId;
@@ -65,6 +67,22 @@ public class DailyAvailability {
 
     public void setBufferMinutes(int bufferMinutes) {
         this.bufferMinutes = bufferMinutes;
+    }
+
+    public EnergyLevel getEnergyLevel(){
+        return energyLevel;
+    }
+
+    public void setEnergyLevel(EnergyLevel energyLevel){
+        this.energyLevel = energyLevel;
+    }
+
+    public SorenessLevel getSorenessLevel(){
+        return sorenessLevel;
+    }
+
+    public void setSorenessLevel(SorenessLevel sorenessLevel){
+        this.sorenessLevel = sorenessLevel;
     }
 
 }

@@ -1,4 +1,4 @@
-com/kassandra/runplanner/RunplannerApplication.class
 com/kassandra/runplanner/model/DailyAvailability.class
 com/kassandra/runplanner/controller/DailyAvailabilityController.class
+com/kassandra/runplanner/RunplannerApplication.class
 com/kassandra/runplanner/repository/DailyAvailabilityRepository.class
