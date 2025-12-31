@@ -5,6 +5,7 @@ import com.kassandra.runplanner.model.DailyAvailability;
 import com.kassandra.runplanner.model.RunSuggestion;
 import com.kassandra.runplanner.service.DailyAvailabilityService;
 
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 public class DailyAvailabilityController {
     private final DailyAvailabilityService service;
